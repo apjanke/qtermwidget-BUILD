@@ -1,6 +1,7 @@
 *
+!.gitignore
 !get_ready.sh
 !my_cmake.sh
 !clean.sh
-!README
+!README.md
 !LICENSE.txt
