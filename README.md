@@ -13,3 +13,7 @@ Usage
 * `. ./my_cmake.sh`
 * `make`
 * `make install`
+
+You can clean this directory by running:
+
+* `./clean.sh`
