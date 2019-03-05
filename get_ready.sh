@@ -2,7 +2,7 @@
 #
 # Sets up environment variables for building QTermWidget based on 
 # detected installation locations. After running this, you can then
-# call `cmake ../qterminal` in the same terminal session and it should
+# call `. ./my_cmake.sh` in the same terminal session and it should
 # work.
 #
 # Supports Homebrew-installed Qt and lxqt dependencies. In fact, it expects
@@ -23,7 +23,7 @@ echo "Found Homebrewed Qt at $MY_QT_PREFIX"
 
 PATH="$MY_QT_PREFIX/bin:$PATH"
 export LDFLAGS="$LDFLAGS -L$MY_QT_PREFIX/lib"
-export CPPFLAGS="$CPPFLAGS -I$MY_QT_PREFIX"
+export CPPFLAGS="$CPPFLAGS -I$MY_QT_PREFIX/include"
 export PKG_CONFIG_PATH="$MY_QT_PREFIX/lib/pkgconfig:$PKG_CONFIG_PATH"
 
 # We'll use a Homebrewed lxqt-build-tools. This needs to be installed
