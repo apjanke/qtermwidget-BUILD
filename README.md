@@ -7,9 +7,9 @@ Usage
 =====
 
 * Clone https://github.com/lxqt/qtermwidget somewhere
-* Clone this repo () next to it
+* Clone this repo (https://github.com/apjanke/qtermwidget-BUILD) next to it
 * `cd qtermwidget-BUILD`
-* `. get_ready.sh`
-  * Yes, source it with `.`; don't run it as a command
-* `./my_cmake`
-
+* `. ./get_ready.sh`
+* `. ./my_cmake.sh`
+* `make`
+* `make install`
