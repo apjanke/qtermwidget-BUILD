@@ -1,4 +1,4 @@
 #!/bin/sh
 
-rm -rf CMakeCache.txt CMakeFiles \
+rm -rf Makefile CMakeCache.txt CMakeFiles \
   *.cmake *.pc lib
