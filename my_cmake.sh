@@ -15,4 +15,5 @@ cmake ../qtermwidget \
   -DCMAKE_BUILD_TYPE=Release \
   -DCMAKE_FIND_FRAMEWORK=LAST \
   -DCMAKE_VERBOSE_MAKEFILE=ON \
+  -DBUILD_EXAMPLE=ON \
   -Wno-dev
